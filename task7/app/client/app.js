@@ -41,7 +41,7 @@ App = {
 
 	},
 
-
+	//load Contract
 	loadContract: async () => {
 		try {
 			const contractAddress = "0x4842bD0Cae49d85e6a991b0DF2d914907def2144"
@@ -50,18 +50,6 @@ App = {
 			if (contractAddress) {
 				console.log("Using deployed contract")
 				App.TodoList = new web3.eth.Contract(TodoListJSON.abi, contractAddress);
-			} else {
-				console.log("Deploying contract")
-				App.TodoList = new web3.eth.Contract(TodoListJSON.abi);
-				await App.TodoList.deploy({
-					data: TodoListJSON.bytecode,
-					arguments: []
-				}).send({
-					from: App.account,
-					gas: 6000000,
-					to: '0x0000000000000000000000000000000000000000',
-				});
-				console.log(App.TodoList)
 			}
 		} catch (error) {
 			console.error(error);
