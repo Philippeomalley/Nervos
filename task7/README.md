@@ -2,6 +2,9 @@
 
 Task7: Port An Existing Ethereum DApp To Polyjuice
 
+Note this app was based on the Dapp University tutorial found here: https://www.youtube.com/watch?v=rzvk2kdjr2I&t=4640s
+The github repository for this tutorial can be found here: https://github.com/dappuniversity/eth-todo-list
+
 ## Screenshots or video of your application running on Godwoken.
 
 ![Alt text](app-running-1.png?raw=true "app running")
