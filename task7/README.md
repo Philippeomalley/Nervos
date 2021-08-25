@@ -8,8 +8,11 @@ The github repository for this tutorial can be found here: https://github.com/da
 ## Instructions on how to use: 
 
 Copy the repository and navigate to the app directory. 
+
 run "npm install" from the terminal to install dependencies
+
 run "yarn dev" or "npm run dev" to run 
+
 make sure your metamask is set to the Godwoken testnet
 
 ## Screenshots or video of your application running on Godwoken.
