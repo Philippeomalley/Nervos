@@ -1,12 +1,12 @@
-# 2021-Nervos-Broaden-the-Spectrum-task7
+
 
 Task7: Port An Existing Ethereum DApp To Polyjuice
 
-Submitter: Soptq
-
 ## Screenshots or video of your application running on Godwoken.
 
-![app running](app-running.png?raw=true "app running")
+![Alt text](app-running-1.png?raw=true "Screenshot of deposit receiver address")
+![Alt text](app-running-2.png?raw=true "Screenshot of deposit receiver address")
+![Alt text](app-running-3.png?raw=true "Screenshot of deposit receiver address")
 
 ## Link to the GitHub repository with your application which has been ported to Godwoken. This must be a different application than the one covered in this guide.
 
@@ -19,13 +19,11 @@ https://github.com/Soptq/2021-Nervos-Broaden-the-Spectrum-task7/tree/main/app
 ## If you deployed any smart contracts as part of this tutorial, please provide the transaction hash of the deployment transaction, the deployed contract address, and the ABI of the deployed smart contract. (Provide all in text format.)
 
 ```
-deployment transaction:
-0xc82d1b65131e6dddd4ec47691f72d51ae00cc867b8d8c6bae56733f884083569
+Transaction hash: 0xe0d646732471c863e53e9acdd9badc80f647e8d7cc4ae893ce1aec2c0ab9b17c
 
-deployed contract address: 
-0x7b48a182479126cac52d6a4637b21ce4cc309656
 
-ABI: 
+Deployed contract address: 0x4842bD0Cae49d85e6a991b0DF2d914907def2144
+
 [
     {
       "inputs": [],
@@ -43,30 +41,12 @@ ABI:
         },
         {
           "indexed": false,
-          "internalType": "string",
-          "name": "title",
-          "type": "string"
-        },
-        {
-          "indexed": false,
-          "internalType": "string",
-          "name": "description",
-          "type": "string"
-        },
-        {
-          "indexed": false,
           "internalType": "bool",
-          "name": "done",
+          "name": "completed",
           "type": "bool"
-        },
-        {
-          "indexed": false,
-          "internalType": "uint256",
-          "name": "createdAt",
-          "type": "uint256"
         }
       ],
-      "name": "TaskCreated",
+      "name": "TaskCompleted",
       "type": "event"
     },
     {
@@ -80,17 +60,23 @@ ABI:
         },
         {
           "indexed": false,
+          "internalType": "string",
+          "name": "content",
+          "type": "string"
+        },
+        {
+          "indexed": false,
           "internalType": "bool",
-          "name": "done",
+          "name": "completed",
           "type": "bool"
         }
       ],
-      "name": "TaskToggledDone",
+      "name": "TaskCreated",
       "type": "event"
     },
     {
       "inputs": [],
-      "name": "taskCounter",
+      "name": "taskCount",
       "outputs": [
         {
           "internalType": "uint256",
@@ -99,8 +85,7 @@ ABI:
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -119,39 +104,23 @@ ABI:
         },
         {
           "internalType": "string",
-          "name": "title",
-          "type": "string"
-        },
-        {
-          "internalType": "string",
-          "name": "description",
+          "name": "content",
           "type": "string"
         },
         {
           "internalType": "bool",
-          "name": "done",
+          "name": "completed",
           "type": "bool"
-        },
-        {
-          "internalType": "uint256",
-          "name": "createdAt",
-          "type": "uint256"
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
         {
           "internalType": "string",
-          "name": "_title",
-          "type": "string"
-        },
-        {
-          "internalType": "string",
-          "name": "_description",
+          "name": "_content",
           "type": "string"
         }
       ],
@@ -168,11 +137,11 @@ ABI:
           "type": "uint256"
         }
       ],
-      "name": "toggleDone",
+      "name": "toggleCompleted",
       "outputs": [],
       "stateMutability": "nonpayable",
       "type": "function"
     }
   ]
-
-```
+  
+  ```
