@@ -10,10 +10,8 @@ Task7: Port An Existing Ethereum DApp To Polyjuice
 
 ## Link to the GitHub repository with your application which has been ported to Godwoken. This must be a different application than the one covered in this guide.
 
-It is in this repo, under `app` folder.
-
 ```
-https://github.com/Soptq/2021-Nervos-Broaden-the-Spectrum-task7/tree/main/app
+https://github.com/Philippeomalley/Nervos/tree/main/task7/app
 ```
 
 ## If you deployed any smart contracts as part of this tutorial, please provide the transaction hash of the deployment transaction, the deployed contract address, and the ABI of the deployed smart contract. (Provide all in text format.)
