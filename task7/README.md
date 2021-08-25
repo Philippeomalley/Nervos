@@ -4,9 +4,10 @@ Task7: Port An Existing Ethereum DApp To Polyjuice
 
 ## Screenshots or video of your application running on Godwoken.
 
-![Alt text](app-running-1.png?raw=true "Screenshot of deposit receiver address")
-![Alt text](app-running-2.png?raw=true "Screenshot of deposit receiver address")
-![Alt text](app-running-3.png?raw=true "Screenshot of deposit receiver address")
+![Alt text](app-running-1.png?raw=true "app running")
+![Alt text](app-running-2.png?raw=true "app running")
+![Alt text](app-running-3.png?raw=true "app running")
+![Alt text](app-running-4.png?raw=true "app running")
 
 ## Link to the GitHub repository with your application which has been ported to Godwoken. This must be a different application than the one covered in this guide.
 
