@@ -1,1 +1,1 @@
-![Alt text](screenshot-app.png?raw=true "app running")
+![Alt text](Screenshot-app.png?raw=true "app running")
