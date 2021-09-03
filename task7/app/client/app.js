@@ -60,8 +60,10 @@ App = {
 	renderAdresses: async () => {
 		const addressTranslator = new AddressTranslator();
 		const polyjuiceAddress = addressTranslator.ethAddressToGodwokenShortAddress(App.account);
+
 		document.getElementById("acc").innerText = "Eth Account: " + App.account;
 		document.getElementById("polyjuice-acc").innerText = "Polyjuice Account: " + polyjuiceAddress;
+
 	},
 
 	render: async () => {
