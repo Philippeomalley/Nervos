@@ -9,7 +9,7 @@ https://explorer.nervos.org/aggron/address/ckt1qyqfwhz79w8trzss652gus5wavr3sh23j
 
 ## 3 A screenshot of the console output immediately after you have successfully submitted a CKByte deposit to your Tron account on Layer 2.
 
-![Alt text](ckb-tron-dep.png?raw=true "accounts")
+![Alt text](Ckb-tron-dep.png?raw=true "accounts")
 
 ## 4 A screenshot of the console output immediately after you have successfully issued a smart contract calls on Layer 2.
 
