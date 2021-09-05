@@ -5,7 +5,11 @@
 
 ## 2 A link to the Layer 1 address you funded on the Testnet Explorer.
 
+# note: I mixed up the private keys and accidentally used a previous ckb-cli from earlier tasks. added both just in case
+
 https://explorer.nervos.org/aggron/address/ckt1qyqfwhz79w8trzss652gus5wavr3sh23jm3qf3ksgg
+
+https://explorer.nervos.org/aggron/address/ckt1qyqx3s6ppycn9uvq5hl3xgkxkkxhpkfaakzsn8ehh4
 
 ## 3 A screenshot of the console output immediately after you have successfully submitted a CKByte deposit to your Tron account on Layer 2.
 
