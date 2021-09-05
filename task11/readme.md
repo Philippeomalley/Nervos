@@ -1,6 +1,6 @@
 1 A screenshot of the accounts you created (account list) in ckb-cli.
 
-![Alt text](accounts-cli.png?raw=true "accounts")
+![Alt text](accounts-created.png?raw=true "accounts")
 
 
 2 A link to the Layer 1 address you funded on the Testnet Explorer.
